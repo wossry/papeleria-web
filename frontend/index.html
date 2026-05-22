@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Papelería Web - Punto de Venta</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -12,8 +13,44 @@
     </header>
 
     <main>
-        <h2>Bienvenido al sistema de gestión</h2>
-        <p>Productos de la papeleria.</p>
+        <section>
+            <h2>Bienvenido al sistema de gestión</h2>
+            <p>Productos de la papelería.</p>
+        </section>
+
+        <section>
+            <h2>Inventario de Productos</h2>
+            <table class="tabla-productos">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                        <th>Existencia</th>
+                        <th>Acciones</th> </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Libreta Universitaria C/C</td>
+                        <td>$45.00</td>
+                        <td>25 pzas</td>
+                        <td>
+                            <button class="btn btn-vender">Vender</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Lápiz Mirado #2</td>
+                        <td>$7.00</td>
+                        <td>80 pzas</td>
+                        <td>
+                            <button class="btn btn-vender">Vender</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
 
 </body>

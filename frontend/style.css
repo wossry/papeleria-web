@@ -1,0 +1,109 @@
+/* Configuración general para que todo se vea limpio */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Color de fondo para toda la página */
+body {
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Diseño del encabezado (Barra superior) */
+header {
+    background-color: #1e3a8a; /* Azul marino */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+/* Contenedor principal del contenido */
+main {
+    max-width: 800px;
+    margin: 30px auto; /* Centra el contenido en la pantalla */
+    padding: 20px;
+}
+
+/* Estilo para las secciones (se verán como tarjetas blancas individuales) */
+section {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Sombra muy suave */
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #1e3a8a; /* El mismo azul marino para combinar */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #e2e8f0; /* Una línea delgada abajo del título */
+    padding-bottom: 5px;
+}
+/* Estilos para la tabla de productos */
+.tabla-productos {
+    width: 100%;
+    border-collapse: collapse; /* Quita los espacios dobles entre bordes */
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.tabla-productos th, .tabla-productos td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+/* Encabezado de la tabla */
+.tabla-productos th {
+    background-color: #1e3a8a;
+    color: white;
+    font-weight: 600;
+}
+
+/* Líneas divisorias en las filas */
+.tabla-productos tr {
+    border-bottom: 1px solid #e2e8f0;
+}
+
+/* Efecto cebra (filas intercaladas de color) */
+.tabla-productos tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+/* Efecto al pasar el mouse sobre una fila */
+.tabla-productos tr:hover {
+    background-color: #f1f5f9;
+}
+/* Estilos generales para los botones */
+.btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease; /* Transición suave para el color */
+}
+
+/* Botón específico para vender */
+.btn-vender {
+    background-color: #10b981; /* Verde moderno */
+    color: white;
+}
+
+/* Efecto al pasar el mouse por encima del botón */
+.btn-vender:hover {
+    background-color: #059669; /* Verde un poco más oscuro */
+}
